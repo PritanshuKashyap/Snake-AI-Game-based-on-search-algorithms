@@ -1,5 +1,5 @@
 from grid import get_neighbors
-
+  
 def dfs(start, goal, snake_body):
 
     stack = [start]
