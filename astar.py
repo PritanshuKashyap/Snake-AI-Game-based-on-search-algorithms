@@ -1,4 +1,4 @@
-import heapq
+import heapq  
 from grid import get_neighbors
    
 def heuristic(a, b):  
