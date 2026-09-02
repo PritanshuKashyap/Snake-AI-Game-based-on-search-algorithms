@@ -1,7 +1,7 @@
 import heapq
 from grid import get_neighbors
    
-def heuristic(a, b):
+def heuristic(a, b):  
     return abs(a[0]-b[0]) + abs(a[1]-b[1])
 
 def astar(start, goal, snake_body):
