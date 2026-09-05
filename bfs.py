@@ -1,5 +1,5 @@
 from collections import deque
-from grid import get_neighbors
+from grid import get_neighbors 
 
 def bfs(start, goal, snake_body):
     queue = deque([start])
