@@ -4,7 +4,7 @@ from grid import get_neighbors
 def bfs(start, goal, snake_body):
     queue = deque([start])
     visited = {start: None}
-
+  
     while queue:
         current = queue.popleft()
 
