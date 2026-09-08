@@ -1,6 +1,6 @@
 from grid import get_neighbors
   
-def dfs(start, goal, snake_body):  
+def dfs(start, goal, snake_body):   
    
     stack = [start]
     visited = {start: None}
