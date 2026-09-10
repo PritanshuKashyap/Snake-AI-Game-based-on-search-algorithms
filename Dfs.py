@@ -3,7 +3,7 @@ from grid import get_neighbors
 def dfs(start, goal, snake_body):   
    
     stack = [start]  
-    visited = {start: None} 
+    visited = {start: None}  
 
     while stack:
         current = stack.pop()
