@@ -4,7 +4,7 @@ def dfs(start, goal, snake_body):
    
     stack = [start]  
     visited = {start: None}  
-
+ 
     while stack:
         current = stack.pop()
 
